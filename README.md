@@ -1,58 +1,45 @@
-# Bakery App – Auto1 Frontend Challenge
-![bakery shop](https://static.vecteezy.com/system/resources/previews/002/045/877/large_2x/fancy-bakery-shop-with-trees-and-bike-vector.jpg)
+# 🧁 Bakery Order App
 
-## Context
+This is a React-based bakery ordering app that allows users to select items from a list of available products and submit an order. It mimics a simple point-of-sale or kiosk interface for a bakery or small shop.
 
-The local bakery would like to extend its business by offering their products online. They approached you to help them build an app for this purpose.
+---
 
-This app should list all the different bakery products and needs to give the option to order them. 
+## 🚀 Features
 
-Luckily the bakery provides an [API](#api-reference) as well as a [design](#design) for you to work with.
+- Fetches a product list from a local server.
+- Displays available bakery items dynamically.
+- Lets users choose quantities for each item.
+- Shows a running total of the order.
+- Submits the final order via API.
+- Handles loading states and error messages gracefully.
 
-## Product Requirements
+---
 
-As a customer:
+## 🛠️ Technologies Used
 
-- [ ] I want to see a list of all products the bakery offers.
-- [ ] For each product I want to see:
-    - [ ] Product name
-    - [ ] Product thumbnail
-    - [ ] Product price
-- [ ] For each product I want to be able: 
-  - [ ] to select the amount I want to order
-  - [ ] to not select more items than are available
-- [ ] I want to see the total price of all my selected products.
-- [ ] I want to see a "disabled" state if a product is out of stock.
-- [ ] I want to see a success page once I ordered
-- [ ] I want to be able to submit multiple orders
+- React (Functional components, Hooks)
+- JavaScript (ES6+)
+- Axios for API calls
+- Bootstrap (or your chosen CSS framework)
+- Local Node.js server for backend API
+- React Router (for navigation)
+- React `useMemo`, `useCallback` for optimization
 
-## Your Task
+---
 
-Create a React application that fulfills all requirements above, plus any nice-to-have requirements you wish to include.
+## 📸 Screenshots
 
-For that, you will need to make requests to the API delivered in this repository.
+### 🏠 Home Page
 
-If you are not able to implement a particular requirement, please provide a description of what and why you could not implement it.
+![Home Page](./client/public/assets/screens/index.png)
 
-### Design
-For the layout of each page, please refer to the provided screens:
+### ✅ Order Success Page
 
-- [Index page](./assets/screens/index.png)
-- [Success page](./assets/screens/success.png)
+![Success Page](.//client/public/assets/screens/success.png)
 
-Font being used in these screens is [Montserrat](https://fonts.google.com/specimen/Montserrat) and can be embedded from Google Fonts.
+---
 
-## Tech Requirements
-
-- React
-- Bootstrap 3, 4 or 5
-- Using any CSS preprocessor is a plus
-
-## Instructions
-
-- Fork this repo
-- Build a clean and well-structured solution
-- Send it to [frontend-marketing-challenge@auto1-group.com](mailto:frontend-marketing-challenge@auto1-group.com) as a zip container (please name is as A1G-FE-challenge-${your_name})
+## 📦 Local Development
 
 ## API Reference
 
@@ -94,7 +81,6 @@ cd A1G-FE-challenge
 npm i
 npm run start
 ```
-
 
 ## Setup and run frontend
 ```
